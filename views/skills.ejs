@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row gutters h-100 ">
+            <div class=" col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 ">
+                <div class="card card2-nav h-100 ">
+                    <div class="card-body ">
+                        <div class="account-settings ">
+                            <div class="user-profile text-center " style="">
+                                <div class="user-avatar ">
+                                    <img src="img/1643557611740.jpg " alt=" " class=' rounded-circle'>
+                                </div>
+                                <div>
+                                    <h5 class="user-name mb-0 mt-3 ">Thorya Abdu</h5>
+                                    <h6 class="user-desc text-muted mt-0 " style='font-size: 14px;'>web developer</h6>
+                                </div>
+                            </div>
+                            <div class="links mt-5 ">
+                                <ul class="text-capitalize text-start mt-5 ">
+                                    <li>
+                                        <a href="dashboard">personal</a>
+                                    </li>
+                                    <li>
+                                        <a href="education">education</a>
+                                    </li>
+                                    <li>
+                                        <a href="experinces">experince</a>
+                                    </li>
+                                    <li>
+                                        <a href="skills">skills</a>
+                                    </li>
+                                    <li>
+                                        <a href="course">course</a>
+                                    </li>
+                                    <li>
+                                        <a href="/ ">logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 mt-5 ">
+                <div>
+                    <form class="card card3-nav" action="/add_skills" method="post">
+                        <div class="card-body ">
+                            <div class="row gutters ">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <h6 class="mb-3 ">Skills</h6>
+                                </div>
+
+                                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                    <div class="form-group ">
+                                        <label for="exper ">what your are skills</label>
+                                        <input type="text " class="form-control " id="exper " name="skillsName" placeholder="Enter your education ">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                    <div class="form-group ">
+                                        <label for="swork ">percent of your knwledge</label>
+                                        <input type="text " class="form-control " id="swork " name="skillsPercent">
+                                    </div>
+                                </div>
+
+
+                                <div class="row gutters ">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 ">
+                                        <div class="text-right d-flex justify-content-around ">
+                                            <button type="button " class="btn btn-secondary ">cancel</button>
+                                            <button type="submit " id="submitsave " class="btn btn-primary nice-btn ">Save</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+    <style>
+        .pro {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        .img-card-port {
+            height: 300px !important;
+        }
+        
+        h2 {
+            color: #7e6d6d;
+        }
+        
+        @media(min-width:992px) {
+            .pro {
+                display: grid;
+                grid-template-columns: 35% auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn btn-light " id='download-cv' style=' position:fixed;top:12px; z-index:1;'> Download file</button>
+
+    <div id="cv">
+
+
+        <div class=" pro text-capitalize bg-light ">
+
+            <div>
+                <div class="card personal-info ">
+                    <div class="card-body ">
+                        <div class="d-flex flex-column align-items-center text-center ">
+                            <img src="../assest/1643553564153.jpg " alt="Admin " class="img-fluid img-card-port ">
+                            <div class="mt-3 ">
+                                <h2 id="por-full-name ">thorya abdu</h2>
+                                <p class="text-secondary mb-1 " id='job-name'>web developer</p>
+                                <p class="text-secondary mb-1 " id='faviorte-sentence'>your work in safe hands</p>
+                                <p class="text-muted font-size-sm "><span class=" " id="position-cou ">yemen</span>/
+                                    <span class=" " id="position-city ">sanaa</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 ">
+                    <h2 class="text-center bg-light ">Concat</h2>
+                    <ul class="list-group list-group-flush ">
+
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap ">
+                            <h6 class="mb-0 ">
+                                <svg aria-hidden="true " focusable="false " data-prefix="fab " data-icon="telegram-plane " class="svg-inline--fa fa-telegram-plane fa-w-14 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 448 512 " style="height:22px
+        "><path fill="#7e6d6d " d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5
+        32.2z "></path></svg> Telegram
+                            </h6>
+                            <span class="text-secondary ">...</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap ">
+                            <h6 class="mb-0 "><svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 " fill="#7e6d6d " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="feather
+        feather-github mr-2 icon-inline "><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07
+        0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22 "></path></svg>Github</h6>
+                            <span class="text-secondary ">...</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap ">
+                            <h6 class="mb-0 ">
+                                <svg width="20px " height="20px " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg ">
+                                <path fill="#7e6d6d " fill-rule="evenodd " d="M20,3.89414472 C19.2641845,4.21529021 18.473566,4.43237024 17.6434684,4.52978778 C18.4904484,4.02991562 19.1413322,3.23830222 19.4472943,2.29557658 C18.6545979,2.75837382
+        17.7761905,3.09486065 16.8419412,3.27537714 C16.0936587,2.49092304 15.0272067,2 13.846993,2 C11.5811072,2 9.74377622,3.80823319 9.74377622,6.03937612 C9.74377622,6.35566351 9.78013844,6.66428024 9.85026557,6.9601125 C6.44000883,6.7916134 3.41675,5.18332907
+        1.39293274,2.73919714 C1.03969975,3.33597545 0.837369973,4.03017131 0.837369973,4.77013552 C0.837369973,6.17156737 1.56175733,7.4075684 2.6627534,8.13219126 C1.99031207,8.11096906 1.35760944,7.92917412 0.804384245,7.62694963 C0.803864784,7.64382511
+        0.803864784,7.6604449 0.803864784,7.67783176 C0.803864784,9.63436461 2.2180954,11.2669394 4.09490539,11.6384556 C3.75076296,11.730248 3.38843941,11.7798517 3.01416828,11.7798517 C2.74950327,11.7798517 2.49263016,11.7547942 2.24199057,11.7074917 C2.76404815,13.3119407
+        4.27931379,14.4801841 6.07482825,14.5129123 C4.67046738,15.5960113 2.9014454,16.2421376 0.978922899,16.2421376 C0.64776697,16.2421376 0.321286184,16.2232166 1.39282525e-13,16.1856303 C1.81577341,17.3316287 3.9725725,18 6.28962508,18 C13.8368635,18
+        17.9639754,11.8453081 17.9639754,6.50805421 C17.9639754,6.33316287 17.9598197,6.15852723 17.9520278,5.98491434 C18.7543342,5.41575045 19.4501513,4.70416773 20,3.89414472 L20,3.89414472 Z "/>
+                              </svg> Twitter
+                            </h6>
+                            <span class="text-secondary ">...</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap ">
+                            <h6 class="mb-0 ">
+                                <svg width="20px " height="20px " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg ">
+                                <path fill="#7e6d6d " d="M17.0391667,17.0433333 L14.0775,17.0433333 L14.0775,12.4025 C14.0775,11.2958333 14.055,9.87166667 12.5341667,9.87166667 C10.99,9.87166667 10.7541667,11.0758333 10.7541667,12.3208333 L10.7541667,17.0433333
+        L7.7925,17.0433333 L7.7925,7.5 L10.6375,7.5 L10.6375,8.80083333 L10.6758333,8.80083333 C11.0733333,8.05083333 12.04,7.25916667 13.4841667,7.25916667 C16.485,7.25916667 17.04,9.23416667 17.04,11.805 L17.04,17.0433333 L17.0391667,17.0433333 Z M4.4475,6.19416667
+        C3.49416667,6.19416667 2.72833333,5.4225 2.72833333,4.47333333 C2.72833333,3.525 3.495,2.75416667 4.4475,2.75416667 C5.3975,2.75416667 6.1675,3.525 6.1675,4.47333333 C6.1675,5.4225 5.39666667,6.19416667 4.4475,6.19416667 Z M5.9325,17.0433333 L2.9625,17.0433333
+        L2.9625,7.5 L5.9325,7.5 L5.9325,17.0433333 Z M18.5208333,0 L1.47583333,0 C0.66,0 0,0.645 0,1.44083333 L0,18.5591667 C0,19.3558333 0.66,20 1.47583333,20 L18.5183333,20 C19.3333333,20 20,19.3558333 20,18.5591667 L20,1.44083333 C20,0.645 19.3333333,0
+        18.5183333,0 L18.5208333,0 Z "/>
+                              </svg> Linkedln
+                            </h6>
+                            <span class="text-secondary ">...</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap ">
+                            <h6 class="mb-0 ">
+                                Facebook
+                            </h6>
+                            <span class="text-secondary ">...</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card mt-3 p-2 h-auto ">
+                    <h2>about me</h2>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, expedita harum obcaecati dignissimos minima molestiae nesciunt commodi, distinctio assumenda velit, modi culpa voluptatem ab debitis ratione. Nihil molestiae qui ullam. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Dolores enim adipisci sunt quisquam quasi nulla id dignissimos quo est dolorem. Quam nesciunt ratione quasi vitae minus vero explicabo, eos recusandae id ipsa deleniti dolores blanditiis impedit
+                        nemo adipisci accusantium quis at officia sapiente nobis!
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+                <div class="card ">
+                    <div class="card ">
+                        <div class="card-body ">
+                            <div class="row ">
+                                <h2 class="mb-2 ">personal name</h2>
+                                <div class="col-sm-3 ">
+                                    <h6 class="mb-0 ">First name</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary " id="fname ">
+                                    thorya
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="row ">
+                                <div class="col-sm-3 ">
+                                    <h6 class="mb-0 ">second name</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary " id="sname ">
+                                    Abdulmageed </div>
+                            </div>
+                            <hr>
+
+                            <div class="row ">
+                                <div class="col-sm-3 ">
+                                    <h6 class="mb-0 ">last name</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary " id="lname ">
+                                    abdu </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-sm-3 ">
+                                    <h6 class="mb-0 ">Email</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary id='emai">
+                                    thorya@gmail.com
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Phone</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id=' phon '>
+                                    (967) 777777777
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">birthday</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary id='bday ">
+                                    jan/1/2000
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-sm-3 ">
+                                    <h6 class="mb-0 ">Address</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary " id='adres'>
+                                    sanaa , yemen </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card p-4 ">
+                    <h2>education</h2>
+                    <div class="d-flex card-body ">
+                        <div class="fw-bold "> 20201-1999</div>
+                        <hr class="h-auto " style=" width: 1px; color: #7e6d6d; margin-left: 10px; ">
+                        <div>
+                            <ul>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex ">
+                        <div class="fw-bold " id="date-education "> 20201-1999</div>
+                        <hr class="h-auto " style=" width: 1px; color: #7e6d6d; margin-left: 10px; ">
+                        <div>
+                            <ul class="list-style-none ">
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+                                <li> Lorem ipsum dolor sit amet.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body ">
+                        <h2 class=" align-items-center mb-3 ">skills</h2>
+                        <small>Web Design</small>
+                        <div class="progress mb-3 " style="height: 5px ">
+                            <div class="progress-bar bg-primary " role="progressbar " style="width: 80% " aria-valuenow="80 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                        </div>
+                        <small>mobile design</small>
+                        <div class="progress mb-3 " style="height: 5px ">
+                            <div class="progress-bar bg-primary " role="progressbar " style="width: 72% " aria-valuenow="72 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                        </div>
+                        <small>seceuraty</small>
+                        <div class="progress mb-3 " style="height: 5px ">
+                            <div class="progress-bar bg-primary " role="progressbar " style="width: 89% " aria-valuenow="89 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                        </div>
+                        <small>desktop developer</small>
+                        <div class="progress mb-3 " style="height: 5px ">
+                            <div class="progress-bar bg-primary " role="progressbar " style="width: 55% " aria-valuenow="55 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card p-3 text-center align-items-center ">
+            <h2>work experinces</h2>
+            <div class="d-flex card-body ">
+                <div class="fw-bold "> 20201-1999</div>
+                <hr class="h-auto " style=" width: 1px; color: #7e6d6d; margin-left: 10px; ">
+                <div>
+                    <ul>
+                        <li> Lorem ipsum dolor sit amet.</li>
+                        <li> Lorem ipsum dolor sit amet.</li>
+                        <li> Lorem ipsum dolor sit amet.</li>
+                        <li> Lorem ipsum dolor sit amet.</li>
+                        <li> Lorem ipsum dolor sit amet.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script>
+        $(document).on('click', '#download-cv', function() {
+            let pdf = new jsPDF();
+            let section = $('#cv');
+            let page = function() {
+                pdf.save('pagename.pdf');
+
+            };
+            pdf.addHTML(section, page);
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
